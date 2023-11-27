@@ -4,10 +4,11 @@ A calculator app based on react, created for learning purpose.
 
 
 ## Tech used
- - React
+ - React (react, react-dom, react-scripts)
 
 ## Features Implemented
- - 
+ - [ ] only limited fields allowed
+ - [ ] switch b/w scientific
 
 ## How to use
 

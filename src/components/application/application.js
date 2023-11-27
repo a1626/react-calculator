@@ -1,8 +1,9 @@
 import React from 'react';
+import Shell from '../shell/shell';
 
 const Application = () => {
     return (
-        <h1>Hello</h1>
+        <Shell />
     );
 }
 
