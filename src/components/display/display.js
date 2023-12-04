@@ -1,8 +1,9 @@
 import react from 'react';
+import './display.css';
 
 const Display = () => {
     return (
-        <textarea cols="30" rows="2">yohoo!</textarea>
+        <textarea className="display" rows="2">yohoo!</textarea>
     );
 };
 

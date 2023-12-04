@@ -1,20 +1,20 @@
 import react from 'react';
 import { rows } from '../../constants/buttons';
+import './inputArea.css';
 
 const InputArea = () => {
     const buttons = [];
 
     rows.forEach(row => {
         {buttons.push(
-            <p>
-                {row.map(button => <button>{button}</button>)}
-            </p>
+            <>
+                {row.map(button => <button className="button">{button}</button>)}
+            </>
 
         )};
     });
     return (
-        // rows.forEach(row => (<p>1</p>))
-        <div>{buttons}</div>
+        <div className="buttons_container">{buttons}</div>
     );
 };
 

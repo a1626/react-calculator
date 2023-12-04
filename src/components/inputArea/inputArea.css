@@ -1,0 +1,17 @@
+.buttons_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.button:first-of-type, .button:nth-last-of-type(3) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
